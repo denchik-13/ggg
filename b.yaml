@@ -1,0 +1,12 @@
+---
+- name: script
+  hosts: all
+  become: yes
+
+
+  tasks:
+  - name: run script
+    shell: "uptime"
+    register: reg
+  - debug:
+      var: reg

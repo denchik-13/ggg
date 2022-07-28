@@ -1,0 +1,12 @@
+---
+- name: ee
+  hosts: all
+
+
+  tasks:
+  - name: ping
+    ping:
+    register: ll
+  - name: drrr
+    debug:
+      var: ll

@@ -1,0 +1,13 @@
+---
+- name: fff
+  hosts: all
+
+  tasks:
+  - name: ping
+    ping:
+  - name: dd
+    shell: "uptime && timedatectl"
+    register: rr
+  - name: dbug
+    debug:
+      var: rr

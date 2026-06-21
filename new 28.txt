@@ -1,0 +1,3 @@
+curl -u "admin:IXBkRXvIDL9SDCCPBdgM1Jc6BKCPHMqZThaJ6Xaq" \
+  --upload-file /home/denchik/redislabs-8.0.2-17-jammy-amd64.tar \
+  "https://wv-nexus.aviatorstudiousa.com/repository/raw-files/redis/redislabs-8.0.2-17-jammy-amd64.tar"
